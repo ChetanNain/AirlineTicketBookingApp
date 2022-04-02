@@ -1,0 +1,40 @@
+.landingpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.customLandingPage {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.employeeProfile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* //height: 100vh; */
+    /* width: calc(100vw-20px); */
+    overflow: scroll;
+    margin-top: 100px;
+}
+
+.loginAnchor {
+    color: blue;
+    text-decoration: none;
+    padding: 20px;
+  }
+
+  .MuiFormControl-fullWidth {
+padding: 0 10px;
+  }
